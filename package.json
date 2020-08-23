@@ -1,0 +1,26 @@
+{
+  "name": "fluffy-adventure",
+  "version": "1.0.0",
+  "description": "Visual Regression Testing with Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test-snapshots": "jest --config=jest.config.js --detectOpenHandles --forceExit",
+    "test-snapshots-update": "jest --config=jest.config.js --updateSnapshot --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corrina-Busby/fluffy-adventure.git"
+  },
+  "author": "Buzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corrina-Busby/fluffy-adventure/issues"
+  },
+  "homepage": "https://github.com/Corrina-Busby/fluffy-adventure#readme",
+  "dependencies": {
+    "jest": "^26.4.2",
+    "jest-image-snapshot": "^4.1.0",
+    "prettier": "^2.0.5",
+    "puppeteer": "^5.2.1"
+  }
+}
